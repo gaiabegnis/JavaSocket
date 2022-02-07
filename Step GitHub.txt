@@ -1,0 +1,9 @@
+
+    3  git init //inizializza la repository localmente
+    5  git remote add origin https://github.com/gaiabegnis/JavaSocket.git //dove andare a prendere la repository 
+    6  git remote set-url origin https://gaiabegnis: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@github.com/gaiabegnis/ //ho aggiunto l'authentication token
+   11  git branch -M main //mi sposto sul branch main
+   15  git add . //aggiungere allo stage i cambiamenti
+   16  git commit -m "Il mio primo commit" //committo alla repository locale i miei cambiamenti
+ 
+   19  git push --set-upstream origin main //push nella repository su github i cambiamenti
